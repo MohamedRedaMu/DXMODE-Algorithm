@@ -72,8 +72,8 @@ DXMODE-Algorithm/
 
 ```matlab
 [goalReached, GlobalBest, countFE] = DXMODE_algorithm();
+```
 
----
 ## 📌 Notes
 
 Benchmark settings are defined inside the main file.
@@ -110,12 +110,36 @@ This project is released under the MIT License. See the LICENSE file for details
 
 ---
 
+
 ## 📧 Contact
 
-Mohamed Reda  
-Emails: 
-  mohamed.reda.mu@gmail.com
-  mohamed.reda@mans.edu.eg
+**Dr. Mohamed Reda**  
+University of Central Lancashire, UK  
+Mansoura University, EGY
+
+- 📩 Personal: [mohamed.reda.mu@gmail.com](mailto:mohamed.reda.mu@gmail.com)  
+- 📩 Academic: [mohamed.reda@mans.edu.eg](mailto:mohamed.reda@mans.edu.eg)  
+
+---
+
+## 🌐 Academic Profiles
+
+- 🧑‍🔬 ORCID: https://orcid.org/0000-0002-6865-1315  
+- 🎓 Google Scholar: https://scholar.google.com/citations?user=JmuB2qwAAAAJ  
+- 📊 Scopus: https://www.scopus.com/authid/detail.uri?authorId=57220204540  
+- 📚 Web of Science: https://www.webofscience.com/wos/author/record/3164983  
+- 🧾 SciProfiles: https://sciprofiles.com/profile/Mreda  
+
+---
+
+## 🔗 Professional & Social Links
+
+- 💼 LinkedIn: https://www.linkedin.com/in/mraf  
+- 🔬 ResearchGate: https://www.researchgate.net/profile/Mohamed-Reda-8  
+- 🎓 Academia: https://mansoura.academia.edu/MohamedRedaAboelfotohMohamed  
+- 📘 SciLit: https://www.scilit.net/scholars/12099081  
+- 🧮 MATLAB Central: https://uk.mathworks.com/matlabcentral/profile/authors/36082525  
+- ▶️ YouTube: https://youtube.com/@mredacs  
 
 ---
 
