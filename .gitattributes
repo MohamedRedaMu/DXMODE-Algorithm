@@ -1,0 +1,5 @@
+*.m linguist-language=MATLAB
+
+cec20_func.cpp linguist-detectable=false
+cec22_test_func.cpp linguist-detectable=false
+*.mex* linguist-detectable=false
