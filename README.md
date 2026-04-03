@@ -32,69 +32,6 @@ Main contributions:
 
 ## 📂 Repository Structure
 
-Official MATLAB implementation of the DXMODE algorithm.
-
-## 📄 Paper
-
-Mohamed Reda, Ahmed Onsy, Amira Y. Haikal, and Ali Ghanbari  
-**DXMODE: A dynamic explorative multi-operator differential evolution algorithm for engineering optimization problems**  
-Information Sciences, 2025  
-DOI: https://doi.org/10.1016/j.ins.2025.122271
-
----
-
-## 🚀 Overview
-
-DXMODE is a Differential Evolution (DE) algorithm designed to improve:
-
-- Exploration capability
-- Population diversity
-- Convergence performance
-
-Main contributions:
-- Error-based Linear Population Decay (ELPD)
-- Multi-operator mutation strategies
-- Chaotic exploration (MNCE)
-- Gaussian exploration (AGE)
-- Adaptive archive
-- Hybrid local search
-
----
-
-## 📂 Repository Structure
-Official MATLAB implementation of the DXMODE algorithm.
-
-## 📄 Paper
-
-Mohamed Reda, Ahmed Onsy, Amira Y. Haikal, and Ali Ghanbari  
-**DXMODE: A dynamic explorative multi-operator differential evolution algorithm for engineering optimization problems**  
-Information Sciences, 2025  
-DOI: https://doi.org/10.1016/j.ins.2025.122271
-
----
-
-## 🚀 Overview
-
-DXMODE is a Differential Evolution (DE) algorithm designed to improve:
-
-- Exploration capability
-- Population diversity
-- Convergence performance
-
-Main contributions:
-- Error-based Linear Population Decay (ELPD)
-- Multi-operator mutation strategies
-- Chaotic exploration (MNCE)
-- Gaussian exploration (AGE)
-- Adaptive archive
-- Hybrid local search
-
----
-
-## 📂 Repository Structure
-
-## 📂 Repository Structure
-
 ```text
 DXMODE-Algorithm/
 │
