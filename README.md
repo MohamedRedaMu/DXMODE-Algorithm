@@ -38,18 +38,15 @@ DXMODE-Algorithm/
 ├── DXMODE_algorithm.m
 ├── cost_cec2020.m
 ├── cost_cec2022.m
+├── run_DXMODE_demo.m  
 │
-├── cec_functions/
-│   ├── cec20_func.cpp
-│   ├── cec22_test_func.cpp
-│   └── (compiled mex files)
+├── cec20_func.cpp
+├── cec20_func.mex*
+├── cec22_test_func.cpp
+├── cec22_test_func.mex*
 │
-├── input_data/
-│   ├── cec2020/
-│   └── cec2022/
-│
-├── examples/
-│   └── run_DXMODE_demo.m
+├── input_data2020/
+├── input_data2022/
 │
 ├── README.md
 ├── LICENSE
