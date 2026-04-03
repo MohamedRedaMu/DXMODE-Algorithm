@@ -52,6 +52,7 @@ DXMODE-Algorithm/
 ├── LICENSE
 ├── CITATION.cff
 └── .gitignore
+├── .gitattributes
 ```
 
 
