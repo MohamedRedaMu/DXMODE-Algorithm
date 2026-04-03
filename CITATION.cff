@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "DXMODE-Algorithm"
+version: "1.0.0"
+date-released: 2025-05-09
+type: software
+authors:
+  - family-names: "Reda"
+    given-names: "Mohamed"
+    email: "mohamed.reda.mu@gmail.com"
+  - family-names: "Onsy"
+    given-names: "Ahmed"
+  - family-names: "Haikal"
+    given-names: "Amira Y."
+  - family-names: "Ghanbari"
+    given-names: "Ali"
+repository-code: "https://github.com/MohamedRedaMu/DXMODE-Algorithm"
+license: "MIT"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Reda"
+      given-names: "Mohamed"
+    - family-names: "Onsy"
+      given-names: "Ahmed"
+    - family-names: "Haikal"
+      given-names: "Amira Y."
+    - family-names: "Ghanbari"
+      given-names: "Ali"
+  title: "DXMODE: A dynamic explorative multi-operator differential evolution algorithm for engineering optimization problems"
+  journal: "Information Sciences"
+  volume: 717
+  year: 2025
+  start: 122271
+  doi: "10.1016/j.ins.2025.122271"
