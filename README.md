@@ -12,7 +12,7 @@ DOI: https://doi.org/10.1016/j.ins.2025.122271
 
 ---
 
-## 🚀 Overview
+## Overview
 
 DXMODE is a Differential Evolution (DE) algorithm designed to improve:
 
@@ -72,3 +72,47 @@ DXMODE-Algorithm/
 
 ```matlab
 [goalReached, GlobalBest, countFE] = DXMODE_algorithm();
+
+
+## 📌 Notes
+
+Benchmark settings are defined inside the main file.
+
+Modify:
+- dimension
+- function number
+- bounds
+
+Requires CEC benchmark files.
+
+## 📚 Citation
+
+If you use this code, please cite:
+
+```bibtex
+@article{reda2025dxmode,
+  title   = {DXMODE: A dynamic explorative multi-operator differential evolution algorithm for engineering optimization problems},
+  author  = {Reda, Mohamed and Onsy, Ahmed and Haikal, Amira Y. and Ghanbari, Ali},
+  journal = {Information Sciences},
+  volume  = {717},
+  pages   = {122271},
+  year    = {2025},
+  doi     = {10.1016/j.ins.2025.122271}
+}
+```
+
+## 📜 License
+
+This project is released under the MIT License. See the LICENSE file for details.
+
+## 📧 Contact
+
+Mohamed Reda  
+Emails: 
+  mohamed.reda.mu@gmail.com
+  mohamed.reda@mans.edu.eg
+
+
+## Acknowledgement
+
+This repository accompanies the published DXMODE paper in Information Sciences.
