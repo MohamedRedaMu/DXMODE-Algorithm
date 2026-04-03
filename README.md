@@ -37,17 +37,14 @@ DXMODE-Algorithm/
 │
 ├── DXMODE_algorithm.m
 ├── cost_cec2020.m
-├── cost_cec2027.m
 ├── cost_cec2022.m
 │
 ├── cec_functions/
-│   ├── cec17_func.cpp
 │   ├── cec20_func.cpp
 │   ├── cec22_test_func.cpp
 │   └── (compiled mex files)
 │
 ├── input_data/
-│   ├── cec2017/
 │   ├── cec2020/
 │   └── cec2022/
 │
