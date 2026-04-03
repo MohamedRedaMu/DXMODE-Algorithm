@@ -73,7 +73,7 @@ DXMODE-Algorithm/
 ```matlab
 [goalReached, GlobalBest, countFE] = DXMODE_algorithm();
 
-
+---
 ## 📌 Notes
 
 Benchmark settings are defined inside the main file.
@@ -84,6 +84,8 @@ Modify:
 - bounds
 
 Requires CEC benchmark files.
+
+---
 
 ## 📚 Citation
 
@@ -100,10 +102,13 @@ If you use this code, please cite:
   doi     = {10.1016/j.ins.2025.122271}
 }
 ```
+---
 
 ## 📜 License
 
 This project is released under the MIT License. See the LICENSE file for details.
+
+---
 
 ## 📧 Contact
 
@@ -112,6 +117,7 @@ Emails:
   mohamed.reda.mu@gmail.com
   mohamed.reda@mans.edu.eg
 
+---
 
 ## Acknowledgement
 
