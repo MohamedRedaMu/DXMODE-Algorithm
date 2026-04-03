@@ -38,7 +38,7 @@ DXMODE-Algorithm/
 ├── DXMODE_algorithm.m
 ├── cost_cec2020.m
 ├── cost_cec2022.m
-├── run_DXMODE_demo.m  
+├── run_DXMODE_main.m  
 │
 ├── cec20_func.cpp
 ├── cec20_func.mex*
@@ -67,20 +67,129 @@ DXMODE-Algorithm/
 
 ## ▶️ How to Run
 
+You can run the algorithm in three ways.
+
+### Option 1: Run with default values
+If no input arguments are passed, the algorithm uses its internal default settings.
+
 ```matlab
 [goalReached, GlobalBest, countFE] = DXMODE_algorithm();
 ```
 
-## 📌 Notes
+Default values inside `DXMODE_algorithm.m`:
+```matlab
+CECyear = 2020;
+fNo     = 3;
+nd      = 20;
+lb      = -100;
+ub      = 100;
+```
 
-Benchmark settings are defined inside the main file.
+### Option 2: Run by passing parameters directly
+You can directly pass the benchmark settings to `DXMODE_algorithm.m`:
 
-Modify:
-- dimension
-- function number
-- bounds
+```matlab
+[goalReached, GlobalBest, countFE] = DXMODE_algorithm(CECyear, fNo, nd, lb, ub);
+```
 
-Requires CEC benchmark files.
+Example for CEC2020:
+```matlab
+[goalReached, GlobalBest, countFE] = DXMODE_algorithm(2020, 3, 20, -100, 100);
+```
+
+Example for CEC2022:
+```matlab
+[goalReached, GlobalBest, countFE] = DXMODE_algorithm(2022, 5, 10, -100, 100);
+```
+
+### Option 3: Run using the main configuration file
+You can also edit the settings in `run_DXMODE_main.m`, then run:
+
+```matlab
+run_DXMODE_main
+```
+
+---
+
+## 🔧 Input Parameters
+
+The function format is:
+
+```matlab
+DXMODE_algorithm(CECyear, fNo, nd, lb, ub)
+```
+
+### Parameters Description
+
+- `CECyear` : Benchmark year  
+  Supported values:
+  - `2020`
+  - `2022`
+
+---
+
+- `fNo` : Benchmark function number  
+
+  - For **CEC2020**:
+    - valid range: `1 – 10`
+
+  - For **CEC2022**:
+    - valid range: `1 – 12`
+
+---
+
+- `nd` : Problem dimension  
+
+  Supported values in this implementation:
+  - `10`
+  - `20`
+
+---
+
+- `lb` : Lower bound  
+  Typically:
+  ```matlab
+  -100
+  ```
+
+- `ub` : Upper bound  
+  Typically:
+  ```matlab
+  100
+  ```
+
+---
+
+## 📌 Important Notes
+
+- Make sure that:
+  - The correct CEC input data is available
+  - The corresponding benchmark functions are compiled (MEX files)
+
+---
+
+## 🧪 Example Runs
+
+### CEC2020 (Function 3, 20D)
+```matlab
+DXMODE_algorithm(2020, 3, 20, -100, 100);
+```
+
+### CEC2020 (Function 10, 10D)
+```matlab
+DXMODE_algorithm(2020, 10, 10, -100, 100);
+```
+
+### CEC2022 (Function 5, 20D)
+```matlab
+DXMODE_algorithm(2022, 5, 20, -100, 100);
+```
+
+### CEC2022 (Function 12, 10D)
+```matlab
+DXMODE_algorithm(2022, 12, 10, -100, 100);
+```
+
 
 ---
 
